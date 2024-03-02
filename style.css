@@ -112,7 +112,7 @@ main .section-info-description .div-info-description p {
 
 .next {
   position: absolute;
-  right: 7rem;
+  right: 3rem;
   color: white;
   background-color: black;
   border: none;
@@ -128,7 +128,7 @@ main .section-info-description .div-info-description p {
 
 .prev {
   position: absolute;
-  left: 7rem;
+  left: 3rem;
   color: white;
   background-color: black;
   border: none;
@@ -292,11 +292,14 @@ footer p {
 
 .carousel-content {
   width: 100%;
-  border: 1px solid green;
+  display: flex;
+  justify-content: center;
 }
 
 .link-img {
+  max-width: 50vh;
   max-width: 100%;
+  max-height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   border: 1px solid white;
@@ -373,5 +376,9 @@ footer p {
   }
   footer {
     margin-top: 5em;
+  }
+  .link-img {
+    max-height: none;
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

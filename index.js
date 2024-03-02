@@ -133,7 +133,6 @@ function carousselImg(linkImg, section, div) {
     }
 }
 
-if (window.innerWidth > 1024) {
-    carousselImg(linkElementsA, carrouselContainer, carrouselContent)
-}
+carousselImg(linkElementsA, carrouselContainer, carrouselContent)
+
 carousselImg(linkElements, carrouselContainer, carrouselContent)
