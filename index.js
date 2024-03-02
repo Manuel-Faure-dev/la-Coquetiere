@@ -52,6 +52,11 @@ linkElementsA = $('.slides a') // premier carrousel
 linkElements = $('.galery-div a') // second carrousel
 const carrouselContainer = $('.carousel-container')
 const carrouselContent = $('.carousel-content')
+const btnCloseCarrousel = $('.btn-close-carrousel')
+
+btnCloseCarrousel.on('click', function () {
+    carrouselContainer.hide()
+})
 
 //console.log(carrouselContainer)
 console.log(linkElementsA)
@@ -128,5 +133,7 @@ function carousselImg(linkImg, section, div) {
     }
 }
 
+if (window.innerWidth < 1024) {
+    carousselImg(linkElementsA, carrouselContainer, carrouselContent)
+}
 carousselImg(linkElements, carrouselContainer, carrouselContent)
-carousselImg(linkElementsA, carrouselContainer, carrouselContent)

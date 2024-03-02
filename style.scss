@@ -114,7 +114,7 @@ main {
 }
 .next {
     position: absolute;
-    right: 20rem;
+    right: 7rem;
     color: white;
     background-color: black;
     border: none;
@@ -128,7 +128,7 @@ main {
 }
 .prev {
     position: absolute;
-    left: 20rem;
+    left: 7rem;
     color: white;
     background-color: black;
     border: none;
@@ -287,11 +287,28 @@ footer {
     align-items: center;
     z-index: 9999;
     background-color: black;
+    .btn-close-carrousel {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+    }
+    .fa-rectangle-xmark {
+        color: white;
+        background-color: black;
+        font-size: 2em;
+    }
+}
+.carousel-content {
+    width: 100%;
+    border: 1px solid green;
 }
 
 .link-img {
-    max-height: 90vh;
-
+    max-width: 100%;
+    //max-height: 50vh;
     object-fit: cover;
     border: 1px solid white;
 }
@@ -357,12 +374,12 @@ footer {
     .next {
         font-size: 2.2em;
         opacity: 0.7;
-        color: #f69218;
+        color: black;
     }
     .prev {
         font-size: 2.2em;
         opacity: 0.7;
-        color: #f69218;
+        color: black;
     }
     .section-info-description {
         justify-content: center;
