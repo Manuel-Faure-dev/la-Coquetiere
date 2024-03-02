@@ -18,6 +18,32 @@ header {
 header nav {
   width: 1272px;
 }
+header nav .dropdown-div {
+  display: none;
+}
+header nav .dropdown-div span {
+  display: none;
+  transition: all 500ms ease-in-out;
+}
+header nav .dropdown-div span .fa-bars {
+  font-size: 2em;
+}
+header nav .dropdown-div span:active + ul {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+header nav .dropdown-div ul {
+  position: absolute;
+  top: 3.5em;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  row-gap: 0.6em;
+  text-transform: uppercase;
+  transition: all 700ms ease-in-out;
+  opacity: 1;
+}
 header nav h4 {
   margin: 0;
 }
@@ -273,27 +299,25 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
   background-color: black;
 }
 .carousel-container .btn-close-carrousel {
   color: white;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1%;
+  right: 1%;
   background-color: transparent;
   border: none;
+}
+.carousel-container .carousel-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .carousel-container .fa-rectangle-xmark {
   color: white;
   background-color: black;
   font-size: 2em;
-}
-
-.carousel-content {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .link-img {
@@ -346,10 +370,16 @@ footer p {
   }
 }
 @media (max-width: 768px) {
-  nav {
+  header nav {
     padding: 0 4em 0 4em;
   }
-  nav ul a {
+  header nav .dropdown-div {
+    display: block;
+  }
+  header nav .dropdown-div span {
+    display: block;
+  }
+  header nav .home-nav-ul a {
     display: none;
   }
   .section-logo {
@@ -358,15 +388,18 @@ footer p {
   .next {
     font-size: 2.2em;
     opacity: 0.7;
-    color: black;
+    color: white;
   }
   .prev {
     font-size: 2.2em;
     opacity: 0.7;
-    color: black;
+    color: white;
   }
   .section-info-description {
     justify-content: center;
+  }
+  .carousel-container {
+    height: auto;
   }
   .div-info-description {
     min-width: 90%;

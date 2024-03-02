@@ -59,7 +59,7 @@ btnCloseCarrousel.on('click', function () {
 })
 
 //console.log(carrouselContainer)
-console.log(linkElementsA)
+//console.log(linkElementsA)
 carrouselContent.hide()
 carrouselContainer.hide()
 
@@ -136,3 +136,25 @@ function carousselImg(linkImg, section, div) {
 carousselImg(linkElementsA, carrouselContainer, carrouselContent)
 
 carousselImg(linkElements, carrouselContainer, carrouselContent)
+
+// Gestion du Dropdown
+
+$('.dropdown-ul').hide()
+
+let toggleMenu = true
+
+$('.toggle-menu-span').on('click', function (e) {
+    if (toggleMenu) {
+        $('.dropdown-ul').show()
+        toggleMenu = false
+    } else {
+        $('.dropdown-ul').hide()
+        toggleMenu = true
+    }
+})
+
+$('.dropdown-ul a').on('click', function () {
+    $('.dropdown-ul').hide()
+    $('.toggle-menu-span').show()
+    console.log('test click')
+})
