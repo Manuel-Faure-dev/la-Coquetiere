@@ -311,7 +311,6 @@ footer p {
   border: none;
 }
 .carousel-container .carousel-content {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -322,9 +321,8 @@ footer p {
 }
 
 .link-img {
-  max-width: 50vh;
-  max-width: 100%;
-  max-height: 100vh;
+  max-width: 150vh;
+  max-height: 95vh;
   -o-object-fit: cover;
      object-fit: cover;
   border: 1px solid white;

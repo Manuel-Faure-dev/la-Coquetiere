@@ -324,7 +324,7 @@ footer {
         //z-index: 10000;
     }
     .carousel-content {
-        width: 100%;
+        //width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -337,9 +337,9 @@ footer {
 }
 
 .link-img {
-    max-width: 50vh;
-    max-width: 100%;
-    max-height: 100vh;
+    //max-width: 50vh;
+    max-width: 150vh;
+    max-height: 95vh;
     object-fit: cover;
     border: 1px solid white;
 }
