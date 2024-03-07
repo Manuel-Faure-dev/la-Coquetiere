@@ -146,9 +146,12 @@ let toggleMenu = true
 $('.toggle-menu-span').on('click', function (e) {
     if (toggleMenu) {
         $('.dropdown-ul').show()
+        $('.main').css('marginTop', '130px')
+        $('.main').css('transition', '700ms ease-in-out')
         toggleMenu = false
     } else {
         $('.dropdown-ul').hide()
+        $('.main').css('marginTop', '0px')
         toggleMenu = true
     }
 })
