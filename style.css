@@ -81,6 +81,7 @@ main {
 }
 main .section-logo {
   padding: 0;
+  max-width: 960px;
 }
 main .section-logo .div-logo {
   margin-top: 3em;
