@@ -146,6 +146,8 @@ main .section-info-description .div-info-description p {
   font-size: 4em;
   background-color: transparent;
   transition: all 500ms ease-in-out;
+  content: "\f054";
+  text-shadow: 2px 2px 6px black;
 }
 
 .next:hover {
@@ -162,6 +164,8 @@ main .section-info-description .div-info-description p {
   font-size: 4em;
   background-color: transparent;
   transition: all 500ms ease-in-out;
+  content: "\f054";
+  text-shadow: 2px 2px 6px black;
 }
 
 .prev:hover {
@@ -385,12 +389,12 @@ footer p {
     margin-top: 2em;
   }
   .next {
-    font-size: 2.2em;
+    font-size: 4em;
     opacity: 0.7;
     color: white;
   }
   .prev {
-    font-size: 2.2em;
+    font-size: 4em;
     opacity: 0.7;
     color: white;
   }
