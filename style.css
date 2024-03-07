@@ -316,7 +316,7 @@ footer p {
 }
 .carousel-container .fa-rectangle-xmark {
   color: white;
-  background-color: black;
+  background-color: transparent;
   font-size: 2em;
 }
 
