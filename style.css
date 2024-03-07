@@ -389,14 +389,16 @@ footer p {
     margin-top: 2em;
   }
   .next {
-    font-size: 4em;
+    font-size: 10em;
     opacity: 0.7;
     color: white;
+    text-shadow: 2px 2px 6px black;
   }
   .prev {
-    font-size: 4em;
+    font-size: 10em;
     opacity: 0.7;
     color: white;
+    text-shadow: 2px 2px 6px black;
   }
   .section-info-description {
     justify-content: center;
