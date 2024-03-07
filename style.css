@@ -322,7 +322,7 @@ footer p {
 
 .link-img {
   max-width: 150vh;
-  max-height: 95vh;
+  max-height: 90vh;
   -o-object-fit: cover;
      object-fit: cover;
   border: 1px solid white;
