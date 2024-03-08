@@ -411,14 +411,18 @@ footer p {
     margin-top: 2em;
   }
   .next {
-    opacity: 0.5;
+    position: absolute;
+    right: 0.2rem;
+    opacity: 0.6;
     color: white;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 1px 1px 2px black;
   }
   .prev {
-    opacity: 0.5;
+    position: absolute;
+    left: 0.2rem;
+    opacity: 0.6;
     color: white;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 1px 1px 2px black;
   }
   .section-info-description {
     justify-content: center;
