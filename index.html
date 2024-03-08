@@ -44,6 +44,7 @@
                         <a href="#galery">GALERIE</a>
                     </ul>
                 </div>
+                <p class="command-phone-text">Commandez vos pizzas au</p>
                 <h4 class="fw-bold">04.75.47.70.83</h4>
                 <ul class="d-flex flex-row gap-4 home-nav-ul">
                     <a class="text-light fs-6 home-nav-ul" href="#La_coquetiere"
@@ -55,20 +56,25 @@
                     >
                     <a class="text-light fs-6" href="#galery">GALERIE</a>
                 </ul>
-                <a
-                    href="https://www.facebook.com/profile.php?id=100088463556872"
-                    ><img src="./assets/logo-fb.png" alt=""
-                /></a>
+                <div class="rs-nav-div">
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100088463556872"
+                        ><img src="./assets/logo-fb.png" alt=""
+                    /></a>
+                    <a href="https://www.instagram.com/pizzerialacoquetiere/"
+                        ><img src="./assets/logo-instagram.png" alt=""
+                    /></a>
+                </div>
             </nav>
         </header>
-        <main class="container-lg main">
+        <main class="main container-lg d-flex align-items-center">
             <section class="section-logo container-lg">
                 <div class="div-logo">
                     <img src="./assets/logo-1.webp" alt="" />
                 </div>
             </section>
             <!--Section restaurant qui présente la pizzeria-->
-            <section class="section-info-description d-flex container-lg">
+            <section class="section-info-description d-flex">
                 <div class="img-div">
                     <!-- <img src="./assets/boule de pate.jpg" alt="" /> -->
                     <img src="./assets//four.jpg" alt="" />
@@ -93,9 +99,13 @@
                 </div>
             </section>
             <!--Section caroussel qui affiche les 3 pages de la carte à pizzas-->
-            <section class="slideshow-container container-lg">
+            <section
+                class="slideshow-container d-flex align-items-center flex-column"
+            >
                 <h2 id="la_carte" class="">La Carte</h2>
-                <div class="d-flex align-items-center justify-content-center">
+                <div
+                    class="button-nextPrev-div d-flex align-items-center justify-content-between"
+                >
                     <button class="prev" onclick="plusSlides(-1)">
                         <i class="fa-solid fa-chevron-left"></i>
                     </button>

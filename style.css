@@ -10,13 +10,14 @@ body a {
 
 header {
   min-width: 100%;
-  padding: 1em;
+  padding: 1.2em;
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
 header nav {
   width: 1272px;
+  position: relative;
 }
 header nav .dropdown-div {
   display: none;
@@ -34,7 +35,7 @@ header nav .dropdown-div span:active + ul {
 }
 header nav .dropdown-div ul {
   position: absolute;
-  top: 4.2em;
+  top: 3.2em;
   font-size: 1em;
   display: flex;
   flex-direction: column;
@@ -43,6 +44,10 @@ header nav .dropdown-div ul {
   text-transform: uppercase;
   transition: all 500ms ease-in-out;
   opacity: 1;
+}
+header nav .command-phone-text {
+  position: absolute;
+  top: -14px;
 }
 header nav h4 {
   margin: 0;
@@ -65,6 +70,11 @@ header nav ul a {
 header nav ul a:hover {
   transform: scale(1.1);
 }
+header nav .rs-nav-div {
+  display: flex;
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}
 header nav img {
   max-width: 2.5rem;
   max-height: 2.5rem;
@@ -78,6 +88,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 8em;
+  max-width: 960px;
 }
 main .section-logo {
   padding: 0;
@@ -120,6 +131,10 @@ main .section-info-description .div-info-description p {
   font-family: "Gotu", sans-serif;
 }
 
+.slideshow-container {
+  width: 100%;
+  max-width: 960px;
+}
 .slideshow-container h2 {
   text-align: center;
   font-family: "Gotu", sans-serif;
@@ -138,8 +153,6 @@ main .section-info-description .div-info-description p {
 }
 
 .next {
-  position: absolute;
-  right: 3rem;
   color: white;
   background-color: black;
   border: none;
@@ -155,9 +168,11 @@ main .section-info-description .div-info-description p {
   color: #f69218;
 }
 
+.button-nextPrev-div {
+  width: 100%;
+}
+
 .prev {
-  position: absolute;
-  left: 3rem;
   color: white;
   background-color: black;
   border: none;
@@ -343,6 +358,13 @@ footer p {
 }
 
 @media (max-width: 1024px) {
+  header nav .command-phone-text {
+    display: none;
+  }
+  header nav h4 {
+    width: 100%;
+    text-align: center;
+  }
   header nav ul a {
     padding-left: 0;
   }
@@ -389,12 +411,12 @@ footer p {
     margin-top: 2em;
   }
   .next {
-    opacity: 0.7;
+    opacity: 0.5;
     color: white;
     text-shadow: 2px 2px 6px black;
   }
   .prev {
-    opacity: 0.7;
+    opacity: 0.5;
     color: white;
     text-shadow: 2px 2px 6px black;
   }
