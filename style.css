@@ -89,15 +89,18 @@ header nav img:hover {
 main {
   display: flex;
   flex-direction: column;
-  gap: 8em;
   max-width: 960px;
 }
 main .section-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
+  height: 100vh;
   max-width: 960px;
 }
 main .section-logo .div-logo {
-  margin-top: 3.5em;
+  width: 100%;
 }
 main .section-logo .div-logo img {
   width: 100%;
@@ -136,6 +139,7 @@ main .section-info-description .div-info-description p {
 .slideshow-container {
   width: 100%;
   max-width: 960px;
+  margin-top: 8em;
 }
 .slideshow-container h2 {
   text-align: center;
@@ -211,6 +215,7 @@ main .section-info-description .div-info-description p {
 
 .open-access-section {
   width: 960px;
+  margin-top: 8em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -267,6 +272,9 @@ main .section-info-description .div-info-description p {
   height: 100%;
 }
 
+.galery-section {
+  margin-top: 8em;
+}
 .galery-section h4 {
   font-family: "Gotu", sans-serif;
   font-size: 3em;
@@ -409,8 +417,11 @@ footer p {
   header nav .home-nav-ul a {
     display: none;
   }
-  .section-logo {
+  main .section-logo {
     margin-top: 2em;
+  }
+  main .section-logo .div-logo {
+    margin-top: 3.5em;
   }
   .next {
     position: absolute;
