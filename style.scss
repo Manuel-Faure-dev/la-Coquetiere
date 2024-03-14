@@ -39,6 +39,8 @@ header {
                 text-transform: uppercase;
                 transition: all 500ms ease-in-out;
                 opacity: 1;
+                background: rgba(0, 0, 0, 0.5);
+                font-weight: 700;
             }
         }
         .command-phone-text {
@@ -72,12 +74,12 @@ header {
             column-gap: 1em;
         }
         img {
-            max-width: 2.5rem;
-            max-height: 2.5rem;
+            max-width: 2rem;
+            max-height: 2rem;
             transition: all 500ms ease-in-out;
         }
         img:hover {
-            transform: scale(1.1);
+            transform: scale(1.15);
         }
     }
 }
@@ -90,7 +92,7 @@ main {
         padding: 0;
         max-width: 960px;
         .div-logo {
-            margin-top: 3em;
+            margin-top: 3.5em;
             img {
                 width: 100%;
             }

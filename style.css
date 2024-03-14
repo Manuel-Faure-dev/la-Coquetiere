@@ -44,6 +44,8 @@ header nav .dropdown-div ul {
   text-transform: uppercase;
   transition: all 500ms ease-in-out;
   opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
 }
 header nav .command-phone-text {
   position: absolute;
@@ -76,12 +78,12 @@ header nav .rs-nav-div {
        column-gap: 1em;
 }
 header nav img {
-  max-width: 2.5rem;
-  max-height: 2.5rem;
+  max-width: 2rem;
+  max-height: 2rem;
   transition: all 500ms ease-in-out;
 }
 header nav img:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 main {
@@ -95,7 +97,7 @@ main .section-logo {
   max-width: 960px;
 }
 main .section-logo .div-logo {
-  margin-top: 3em;
+  margin-top: 3.5em;
 }
 main .section-logo .div-logo img {
   width: 100%;
