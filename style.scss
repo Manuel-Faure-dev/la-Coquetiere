@@ -429,6 +429,11 @@ footer {
     header {
         nav {
             padding: 0 4em 0 4em;
+            ul {
+                a {
+                    color: white;
+                }
+            }
             .dropdown-div {
                 display: block;
                 span {
@@ -445,10 +450,23 @@ footer {
     main {
         .section-logo {
             margin-top: 2em;
+            height: auto;
             .div-logo {
                 margin-top: 3.5em;
+                img {
+                    margin: 3em 0 3em 0;
+                }
             }
         }
+    }
+    .slideshow-container {
+        margin-top: 2.5em;
+    }
+    .open-access-section {
+        margin-top: 2.5em;
+    }
+    .galery-section {
+        margin-top: 3em;
     }
 
     .next {
