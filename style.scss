@@ -89,6 +89,7 @@ header {
         }
     }
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -109,7 +110,7 @@ main {
     }
     // Photo boule de pâte et description du restaurant
     .section-info-description {
-        //margin-top: 7em;
+        margin-top: 8em;
         max-width: 960px;
         .img-div {
             width: 50%;
@@ -146,7 +147,7 @@ main {
 .slideshow-container {
     width: 100%;
     max-width: 960px;
-    margin-top: 8em;
+    margin-top: 14em;
     h2 {
         text-align: center;
         font-family: 'Gotu', sans-serif;
@@ -219,7 +220,7 @@ main {
 // Section contact coordonnés horaires plan google map
 .open-access-section {
     width: 960px;
-    margin-top: 8em;
+    margin-top: 14em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -282,7 +283,7 @@ main {
 
 // Section Galery photo
 .galery-section {
-    margin-top: 8em;
+    margin-top: 14em;
     h4 {
         font-family: 'Gotu', sans-serif;
         font-size: 3em;
@@ -309,7 +310,7 @@ main {
 
 // FOOTER
 footer {
-    margin-top: 8em;
+    margin-top: 14em;
     height: 8rem;
     border-top: 1px solid white;
     p {

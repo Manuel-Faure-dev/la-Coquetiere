@@ -110,6 +110,7 @@ main .section-logo .div-logo img {
   width: 100%;
 }
 main .section-info-description {
+  margin-top: 8em;
   max-width: 960px;
 }
 main .section-info-description .img-div {
@@ -143,7 +144,7 @@ main .section-info-description .div-info-description p {
 .slideshow-container {
   width: 100%;
   max-width: 960px;
-  margin-top: 8em;
+  margin-top: 14em;
 }
 .slideshow-container h2 {
   text-align: center;
@@ -219,7 +220,7 @@ main .section-info-description .div-info-description p {
 
 .open-access-section {
   width: 960px;
-  margin-top: 8em;
+  margin-top: 14em;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -277,7 +278,7 @@ main .section-info-description .div-info-description p {
 }
 
 .galery-section {
-  margin-top: 8em;
+  margin-top: 14em;
 }
 .galery-section h4 {
   font-family: "Gotu", sans-serif;
@@ -302,7 +303,7 @@ main .section-info-description .div-info-description p {
 }
 
 footer {
-  margin-top: 8em;
+  margin-top: 14em;
   height: 8rem;
   border-top: 1px solid white;
 }
