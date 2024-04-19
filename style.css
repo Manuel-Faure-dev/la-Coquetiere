@@ -110,7 +110,7 @@ main .section-logo .div-logo img {
   width: 100%;
 }
 main .section-info-description {
-  margin-top: 8em;
+  margin-top: 4em;
   max-width: 960px;
 }
 main .section-info-description .img-div {
@@ -399,6 +399,14 @@ footer .footer-bottom-section {
 }
 footer .footer-bottom-section p {
   text-align: center;
+}
+footer .footer-rs {
+  display: flex;
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+}
+footer .footer-rs img {
+  height: 2em;
 }
 
 .chevron-up {

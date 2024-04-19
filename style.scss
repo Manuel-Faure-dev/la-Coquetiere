@@ -110,7 +110,7 @@ main {
     }
     // Photo boule de pâte et description du restaurant
     .section-info-description {
-        margin-top: 8em;
+        margin-top: 4em;
         max-width: 960px;
         .img-div {
             width: 50%;
@@ -309,16 +309,6 @@ main {
 }
 
 // FOOTER
-
-// footer {
-//     margin-top: 14em;
-//     height: 8rem;
-//     border-top: 1px solid white;
-//     p {
-//         font-family: 'Work Sans', sans-serif;
-//     }
-// }
-
 footer {
     margin-top: 10em;
     .footer-section {
@@ -416,6 +406,13 @@ footer {
         //background-color: #2e4a66;
         p {
             text-align: center;
+        }
+    }
+    .footer-rs {
+        display: flex;
+        column-gap: 0.5em;
+        img {
+            height: 2em;
         }
     }
 }
