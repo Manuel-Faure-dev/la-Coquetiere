@@ -309,12 +309,114 @@ main {
 }
 
 // FOOTER
+
+// footer {
+//     margin-top: 14em;
+//     height: 8rem;
+//     border-top: 1px solid white;
+//     p {
+//         font-family: 'Work Sans', sans-serif;
+//     }
+// }
+
 footer {
-    margin-top: 14em;
-    height: 8rem;
-    border-top: 1px solid white;
-    p {
-        font-family: 'Work Sans', sans-serif;
+    margin-top: 10em;
+    .footer-section {
+        display: flex;
+        justify-content: space-around;
+        padding: 1.4em 0;
+        border-top: 1px solid white;
+        //background-color: black;
+        a:hover {
+            color: #e5975f;
+        }
+    }
+    .footer-contact-div {
+        row-gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        max-width: 10em;
+    }
+    a {
+        color: white;
+
+        img {
+            max-width: 3em;
+            transition: all 500ms ease-in-out;
+        }
+        img:hover {
+            transform: rotateY(360deg);
+        }
+    }
+
+    .footer-mail-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1em;
+        .fa-envelope,
+        .fa-phone {
+            margin-right: 0.5em;
+        }
+    }
+    .pages-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h5 {
+            font-size: 1.5em;
+            margin: 0 0 0.5em 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                line-height: 2em;
+                font-size: 0.9em;
+                display: flex;
+                column-gap: 0.4em;
+                align-items: center;
+                img {
+                    height: 1.1em;
+                    color: white;
+                }
+            }
+        }
+    }
+    .useful-link-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h5 {
+            font-size: 1.4em;
+            margin: 0 0 0.5em 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                line-height: 2em;
+                font-size: 0.9em;
+                display: flex;
+                column-gap: 0.4em;
+                align-items: center;
+                img {
+                    height: 1.1em;
+                    color: white;
+                }
+            }
+        }
+    }
+    .footer-bottom-section {
+        padding: 1.5em 0;
+        border-top: 1px solid #e5975f;
+        //background-color: #2e4a66;
+        p {
+            text-align: center;
+        }
     }
 }
 

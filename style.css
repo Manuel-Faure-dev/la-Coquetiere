@@ -303,12 +303,102 @@ main .section-info-description .div-info-description p {
 }
 
 footer {
-  margin-top: 14em;
-  height: 8rem;
+  margin-top: 10em;
+}
+footer .footer-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.4em 0;
   border-top: 1px solid white;
 }
-footer p {
-  font-family: "Work Sans", sans-serif;
+footer .footer-section a:hover {
+  color: #e5975f;
+}
+footer .footer-contact-div {
+  row-gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer img {
+  max-width: 10em;
+}
+footer a {
+  color: white;
+}
+footer a img {
+  max-width: 3em;
+  transition: all 500ms ease-in-out;
+}
+footer a img:hover {
+  transform: rotateY(360deg);
+}
+footer .footer-mail-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+}
+footer .footer-mail-div .fa-envelope,
+footer .footer-mail-div .fa-phone {
+  margin-right: 0.5em;
+}
+footer .pages-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .pages-div h5 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+}
+footer .pages-div ul {
+  margin: 0;
+  padding: 0;
+}
+footer .pages-div ul li {
+  line-height: 2em;
+  font-size: 0.9em;
+  display: flex;
+  -moz-column-gap: 0.4em;
+       column-gap: 0.4em;
+  align-items: center;
+}
+footer .pages-div ul li img {
+  height: 1.1em;
+  color: white;
+}
+footer .useful-link-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .useful-link-div h5 {
+  font-size: 1.4em;
+  margin: 0 0 0.5em 0;
+}
+footer .useful-link-div ul {
+  margin: 0;
+  padding: 0;
+}
+footer .useful-link-div ul li {
+  line-height: 2em;
+  font-size: 0.9em;
+  display: flex;
+  -moz-column-gap: 0.4em;
+       column-gap: 0.4em;
+  align-items: center;
+}
+footer .useful-link-div ul li img {
+  height: 1.1em;
+  color: white;
+}
+footer .footer-bottom-section {
+  padding: 1.5em 0;
+  border-top: 1px solid #e5975f;
+}
+footer .footer-bottom-section p {
+  text-align: center;
 }
 
 .chevron-up {
