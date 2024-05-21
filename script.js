@@ -15,7 +15,7 @@ function carousel() {
         }
     })
 
-    // Mettre à jour les points de suivi
+    // Mettre à jour les points de suivi du carrousel de la carte
     const pagination = document.querySelector('.pagination')
     pagination.innerHTML = '' // Effacez les points de suivi existants
     slidesArray.forEach((slide, index) => {
@@ -180,7 +180,7 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos
 }
 
-// Ajoute une hauteur de 5em
+// Ajoute une hauteur de 5em au click link navBar
 const navBarLinks = document.querySelectorAll('.navbar-link')
 
 navBarLinks.forEach((link) => {

@@ -319,7 +319,9 @@ footer {
         justify-content: space-around;
         padding: 1.4em 0;
         border-top: 1px solid white;
-        //background-color: black;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2em;
         a:hover {
             color: #e5975f;
         }
@@ -382,7 +384,8 @@ footer {
     .useful-link-div {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+
+        align-items: center;
         h5 {
             font-size: 1.4em;
             margin: 0 0 0.5em 0;
@@ -404,11 +407,12 @@ footer {
         }
     }
     .footer-bottom-section {
-        padding: 1.5em 0;
+        padding: 1em 0;
         border-top: 1px solid #e5975f;
-        //background-color: #2e4a66;
+        font-size: 0.8em;
         p {
             text-align: center;
+            margin-bottom: 0;
         }
     }
     .footer-rs {
@@ -604,5 +608,10 @@ footer {
     .link-img {
         max-height: none;
         max-width: 100%;
+    }
+    .chevron-up {
+        height: 2em;
+        bottom: 10px;
+        right: 10px;
     }
 }
