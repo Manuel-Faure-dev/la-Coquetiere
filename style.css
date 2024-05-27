@@ -309,10 +309,10 @@ footer {
 footer .footer-section {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
   padding: 1.4em 0;
   border-top: 1px solid white;
-  flex-direction: column;
-  align-items: center;
   row-gap: 2em;
 }
 footer .footer-section a:hover {
@@ -576,6 +576,14 @@ footer .footer-rs img {
   }
   footer {
     margin-top: 5em;
+  }
+  footer .footer-section {
+    flex-direction: column;
+  }
+  footer .footer-section .useful-link-div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .link-img {
     max-height: none;

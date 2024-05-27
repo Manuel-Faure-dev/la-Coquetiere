@@ -317,10 +317,10 @@ footer {
     .footer-section {
         display: flex;
         justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
         padding: 1.4em 0;
         border-top: 1px solid white;
-        flex-direction: column;
-        align-items: center;
         row-gap: 2em;
         a:hover {
             color: #e5975f;
@@ -604,6 +604,16 @@ footer {
     }
     footer {
         margin-top: 5em;
+        .footer-section {
+            flex-direction: column;
+            .useful-link-div {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
     }
     .link-img {
         max-height: none;
